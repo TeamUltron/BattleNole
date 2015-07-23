@@ -18,76 +18,96 @@
             android:layout_weight="1.0"
             android:weightSum="1.0">
 
-            <ImageView
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/a1"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/b1"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/c1"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/d1"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/e1"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/f1"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/g1"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/h1"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/i1"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/j1"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
         </TableRow>
         <TableRow
             android:layout_width="0dp"
@@ -95,76 +115,96 @@
             android:layout_weight="1.0"
             android:weightSum="1.0">
 
-            <ImageView
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/a2"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/b2"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/c2"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/d2"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/e2"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/f2"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/g2"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/h2"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/i2"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/j2"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
         </TableRow>
         <TableRow
             android:layout_width="0dp"
@@ -172,76 +212,96 @@
             android:layout_weight="1.0"
             android:weightSum="1.0">
 
-            <ImageView
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/a3"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/b3"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/c3"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/d3"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/e3"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/f3"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/g3"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/h3"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/i3"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/j3"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
         </TableRow>
         <TableRow
             android:layout_width="0dp"
@@ -249,76 +309,96 @@
             android:layout_weight="1.0"
             android:weightSum="1.0">
 
-            <ImageView
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/a4"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/b4"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/c4"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/d4"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/e4"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/f4"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/g4"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/h4"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/i4"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/j4"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
         </TableRow>
         <TableRow
             android:layout_width="0dp"
@@ -326,76 +406,96 @@
             android:layout_weight="1.0"
             android:weightSum="1.0">
 
-            <ImageView
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/a5"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/b5"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/c5"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/d5"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/e5"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/f5"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/g5"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/h5"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/i5"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/j5"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
         </TableRow>
         <TableRow
             android:layout_width="0dp"
@@ -403,76 +503,96 @@
             android:layout_weight="1.0"
             android:weightSum="1.0">
 
-            <ImageView
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/a6"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/b6"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/c6"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/d6"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/e6"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/f6"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/g6"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/h6"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/i6"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/j6"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
         </TableRow>
         <TableRow
             android:layout_width="0dp"
@@ -480,76 +600,96 @@
             android:layout_weight="1.0"
             android:weightSum="1.0">
 
-            <ImageView
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/a7"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/b7"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/c7"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/d7"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/e7"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/f7"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/g7"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/h7"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/i7"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/j7"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
         </TableRow>
         <TableRow
             android:layout_width="0dp"
@@ -557,76 +697,96 @@
             android:layout_weight="1.0"
             android:weightSum="1.0">
 
-            <ImageView
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/a8"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/b8"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/c8"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/d8"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/e8"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/f8"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/g8"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/h8"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/i8"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/j8"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
         </TableRow>
         <TableRow
             android:layout_width="0dp"
@@ -634,76 +794,96 @@
             android:layout_weight="1.0"
             android:weightSum="1.0">
 
-            <ImageView
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/a9"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/b9"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/c9"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/d9"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/e9"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/f9"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/g9"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/h9"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/i9"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/j9"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
         </TableRow>
         <TableRow
             android:layout_width="0dp"
@@ -711,76 +891,96 @@
             android:layout_weight="1.0"
             android:weightSum="1.0">
 
-            <ImageView
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/a10"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/b10"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/c10"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/d10"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/e10"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/f10"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/g10"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/h10"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/i10"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
-            <ImageView
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/j10"
                 android:background="@drawable/buttonbg"
                 android:layout_column="0"
-                android:layout_weight="0.1"/>
+                android:layout_weight="0.1"
+                android:onClick="gridClick"
+                />
         </TableRow>
     </TableLayout>
 

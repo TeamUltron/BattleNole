@@ -1,8 +1,10 @@
 package com.teamultron.finalproject.battlenole;
 
 import android.app.Activity;
+import android.content.res.Resources;
 import android.os.Bundle;
-import android.widget.ImageView;
+import android.view.View;
+import android.widget.ImageButton;
 
 import java.lang.reflect.Field;
 
@@ -12,7 +14,7 @@ import java.lang.reflect.Field;
 public class GameActivity extends Activity {
 
     String[] columns = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j"};
-    ImageView[][] myGrid;
+    ImageButton[][] myGrid;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,13 +22,21 @@ public class GameActivity extends Activity {
         setContentView(R.layout.activity_game);
 
         //attempting to dynamically grab ids from the 100 block game grid.
-        myGrid = new ImageView[10][10];
+        myGrid = new ImageButton[10][10];
         for(int i = 0; i < 10; ++i){
             for(int j = 0; j < 10; ++j){
                 String myID = columns[i] + Integer.toString(j + 1);
-                myGrid[i][j] = (ImageView) findViewById(getResId(myID, GameActivity.class));
+                myGrid[i][j] = (ImageButton) findViewById(getResId(myID, GameActivity.class));
             }
         }
+
+
+    }
+
+    public void gridClick(View v){
+        ImageButton bController = (ImageButton) findViewById(v.getId());
+
+        bController.setBackground(getResources().getDrawable(R.drawable.gridhit));
     }
 
     public static int getResId(String resName, Class<?> c) {
