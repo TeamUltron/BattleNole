@@ -15,7 +15,8 @@ import android.widget.Button;
 
 public class MainActivity extends ActionBarActivity {
 
-    Button toGrame;
+    Button toGame;
+    Button toHowTo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,11 +27,19 @@ public class MainActivity extends ActionBarActivity {
         final Intent j = new Intent(this, HowToActivity.class);
 
 
-        toGrame = (Button) findViewById(R.id.buttonPlay);
-        toGrame.setOnClickListener(new View.OnClickListener() {
+        toGame = (Button) findViewById(R.id.buttonPlay);
+        toGame.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(i);
+            }
+        });
+
+        toHowTo = (Button) findViewById(R.id.buttonHowTo);
+        toHowTo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(j);
             }
         });
     }

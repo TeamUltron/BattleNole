@@ -27,7 +27,7 @@
         android:layout_height="65dp"
         android:text="Play Now!"
         android:id="@+id/buttonPlay"
-        android:background="@drawable/buttonbg"
+        android:background="@drawable/menubuttonbg"
         android:layout_below="@+id/mTitle"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="109dp" />
@@ -35,7 +35,7 @@
     <Button
         android:layout_width="200dp"
         android:layout_height="65dp"
-        android:background="@drawable/buttonbg"
+        android:background="@drawable/menubuttonbg"
         android:text="How to Play"
         android:id="@+id/buttonHowTo"
         android:layout_marginTop="34dp"
