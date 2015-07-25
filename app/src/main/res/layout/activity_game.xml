@@ -987,4 +987,29 @@
         </TableRow>
     </TableLayout>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fire"
+        android:textColor="#EEEEEE"
+        android:background="@color/garnet"
+        android:id="@+id/fire"
+        android:layout_marginRight="37dp"
+        android:layout_marginEnd="37dp"
+        android:layout_below="@+id/viewSwitch"
+        android:layout_marginTop="15dp"
+        android:layout_alignRight="@+id/tableLayout"
+        android:layout_alignEnd="@+id/tableLayout" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#EEEEEE"
+        android:id="@+id/viewSwitch"
+        android:layout_below="@+id/tableLayout"
+        android:layout_marginTop="15dp"
+        android:layout_alignLeft="@+id/fire"
+        android:layout_alignStart="@+id/fire" />
+
 </RelativeLayout>

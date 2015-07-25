@@ -21,6 +21,7 @@ public class NumberConf extends ActionBarActivity {
     ProgressBar pB;
     TextView tV;
     SmsManager smsManager;
+    public static String myNum;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +41,7 @@ public class NumberConf extends ActionBarActivity {
         bS.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String myNum = phone.getText().toString();
+                myNum = phone.getText().toString();
                 smsManager.sendTextMessage(myNum, null, "Welcome to Battleship", null, null);
 
                 tV.setVisibility(View.VISIBLE);
