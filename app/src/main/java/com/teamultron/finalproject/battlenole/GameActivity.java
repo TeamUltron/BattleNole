@@ -309,4 +309,20 @@ public class GameActivity extends Activity {
 //            return -1;
 //        }
     }
+
+    //TODO -- ON RECEIVE --
+    //if response to attack (&), check for hit or miss.
+    //      mark enemyGrid[attackX][attackY] with the proper value
+    //      1 for hit, 2 for miss
+    //      repaint enemygrid with paintEnemyGrid();
+    //      keep track of health of hit enemy ships (hide this from user)
+    //      i.e. variable in background such as enemySubHealth -= 1, if 0 ship destroyed
+    //      user should only know if they've destroyed a ship, not necessarily which
+    //      ship they've actually hit
+    //if incoming attack (%), check for hit or miss using myGrid, shipNames, w/e
+    //check out code above to get the gist of it
+    //      if hit, assign gridhit drawable to incoming coordinate and repaint the friendly grid
+    //      decrease health of the ship that was hit
+    //      otherwise same for miss
+    //
 }

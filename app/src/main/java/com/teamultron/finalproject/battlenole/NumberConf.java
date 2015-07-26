@@ -42,7 +42,7 @@ public class NumberConf extends ActionBarActivity {
             @Override
             public void onClick(View v) {
                 myNum = phone.getText().toString();
-                smsManager.sendTextMessage(myNum, null, "Welcome to Battleship", null, null);
+                smsManager.sendTextMessage(myNum, null, "#StartGame", null, null);
 
                 tV.setVisibility(View.VISIBLE);
                 pB.setVisibility(View.VISIBLE);
@@ -50,6 +50,12 @@ public class NumberConf extends ActionBarActivity {
         });
 
         //TODO SET UP MESSAGE RECEPTION TO START GAME
+        //ON Receive, do the following---
+        //if message is from same number and has confirmation key
+        //(message should be the same as above, #StartGame,
+        //then
+        //final Intent i = new Intent(this, GameActivity.class);
+        //startactivity(i);
 
     }
 }

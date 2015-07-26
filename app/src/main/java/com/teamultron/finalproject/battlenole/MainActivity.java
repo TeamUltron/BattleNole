@@ -23,7 +23,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final Intent i = new Intent(this, GameActivity.class);
+        final Intent i = new Intent(this, NumberConf.class);
         final Intent j = new Intent(this, HowToActivity.class);
 
 
