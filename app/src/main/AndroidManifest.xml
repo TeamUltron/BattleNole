@@ -4,8 +4,12 @@
     >
 
     <uses-sdk
-        android:minSdkVersion="17" />
+        android:minSdkVersion="17"/>
     <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
 
     <application
         android:allowBackup="true"
@@ -29,15 +33,12 @@
             android:name=".NumberConf"
             android:label="@string/title_activity_number_conf" >
         </activity>
-        <uses-permission android:name="android.permission.WRITE_SMS" />
-        <uses-permission android:name="android.permission.SEND_SMS" />
-        <uses-permission android:name="android.permission.RECEIVE_SMS" />
-        <uses-permission android:name="android.permission.READ_SMS" />
+
 
         <receiver
             android:name=".SMSHandler"
             android:exported="true">
-            <intent-filter android:priority="2147483647">
+            <intent-filter android:priority="999">
                 <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
             </intent-filter>
         </receiver>

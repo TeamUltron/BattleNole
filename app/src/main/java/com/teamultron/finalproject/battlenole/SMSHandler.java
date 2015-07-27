@@ -18,9 +18,11 @@ public class SMSHandler  extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        if (intent.getAction().equals(SMS_RECEIVED)) {
+      //  if (intent.getAction().equals(SMS_RECEIVED)) {
             Bundle bundle = intent.getExtras();
-            if (bundle != null) {
+        Toast.makeText(context, "Received", Toast.LENGTH_SHORT).show();
+        if (bundle != null) {
+              //  Toast.makeText(context, "In bundle", Toast.LENGTH_SHORT).show();
                 // get sms objects
                 Object[] pdus = (Object[]) bundle.get("pdus");
                 if (pdus.length == 0) {
@@ -35,11 +37,11 @@ public class SMSHandler  extends BroadcastReceiver {
                 }
                 String sender = messages[0].getOriginatingAddress();
                 String message = sb.toString();
-                Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
+               // Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
                 // prevent any other broadcast receivers from receiving broadcast
                 // abortBroadcast();
             }
-        }
+       // }
     }
     /*// Get the object of SmsManager
     final SmsManager sms = SmsManager.getDefault();
