@@ -29,12 +29,15 @@
             android:name=".NumberConf"
             android:label="@string/title_activity_number_conf" >
         </activity>
+        <uses-permission android:name="android.permission.WRITE_SMS" />
         <uses-permission android:name="android.permission.SEND_SMS" />
-        <!-- Make sure that this is actually what you need in the Manifest -->
+        <uses-permission android:name="android.permission.RECEIVE_SMS" />
+        <uses-permission android:name="android.permission.READ_SMS" />
+
         <receiver
-            android:name=".SMSIncomingHandler"
-            android:permission="android.permission.BROADCAST_SMS">
-            <intent-filter android:priority="2">
+            android:name=".SMSHandler"
+            android:exported="true">
+            <intent-filter android:priority="2147483647">
                 <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
             </intent-filter>
         </receiver>
