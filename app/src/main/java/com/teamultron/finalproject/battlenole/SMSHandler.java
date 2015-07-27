@@ -9,12 +9,18 @@ import android.telephony.SmsMessage;
 import android.util.Log;
 import android.widget.Toast;
 
+import java.util.Arrays;
+
 /**
  * Created by davidperez on 7/21/2015.
  */
 public class SMSHandler  extends BroadcastReceiver {
 
+    private static int defendX, defendY;
+
+
     private static final String SMS_RECEIVED = "android.provider.Telephony.SMS_RECEIVED";
+    private  final String startString = "#StartGame";
 
     @Override
     public void onReceive(Context context, Intent intent) {
@@ -40,7 +46,39 @@ public class SMSHandler  extends BroadcastReceiver {
                // Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
                 // prevent any other broadcast receivers from receiving broadcast
                 // abortBroadcast();
+
+            if (sender.matches(NumberConf.myNum)){
+                if (message.matches(startString)) {
+                    Intent x = new Intent();
+                    x.setClassName(context, "com.teamultron.finalproject.battlenole.GameActivity");
+                    x.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    context.startActivity(x);
+                }
+                else if (message.charAt(0)== ('%')){
+                    int hitID;
+                    int hitSuccess = 0;
+                    int destroyed = 0;
+
+                    defendX = Character.getNumericValue(message.charAt(1));
+                    defendY = Character.getNumericValue(message.charAt(1));
+                    if (GameActivity.shipGrid[defendX][defendY] != ""){
+                        hitSuccess = 1;
+                        hitID = Arrays.asList(GameActivity.shipNames).indexOf(GameActivity.shipGrid[defendX][defendY]);
+                        GameActivity.shipHealth[hitID] -= 1;
+                        if (GameActivity.shipHealth[hitID] == 0){
+                            destroyed = 1;
+                        }
+
+                        GameActivity.myGrid[defendX][defendY].setBackground(context.getResources().getDrawable(R.drawable.gridhit));
+                        GameActivity.shipGrid[defendX][defendY] = "hit";
+                        GameActivity.smsManager.sendTextMessage(sender, null, "&" + Integer.toString(hitSuccess) + Integer.toString(hitID) + Integer.toString(destroyed), null, null);
+                    }
+                    else{
+                        GameActivity.smsManager.sendTextMessage(sender, null, "&" + hitSuccess, null, null);
+                    }
+                }
             }
+        }
        // }
     }
     /*// Get the object of SmsManager

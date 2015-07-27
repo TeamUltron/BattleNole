@@ -23,6 +23,7 @@ import android.widget.TextView;
 public class NumberConf extends ActionBarActivity {
 
     Button bS;
+    static boolean confRec;
     EditText phone;
     ProgressBar pB;
     TextView tV;
@@ -35,6 +36,7 @@ public class NumberConf extends ActionBarActivity {
         setContentView(R.layout.activity_number_conf);
 
         smsManager = SmsManager.getDefault();
+        confRec = false;
 
         phone = (EditText) findViewById(R.id.editText);
         pB = (ProgressBar) findViewById(R.id.progressBar);
@@ -52,6 +54,7 @@ public class NumberConf extends ActionBarActivity {
                 bS.setClickable(false);
                 tV.setVisibility(View.VISIBLE);
                 pB.setVisibility(View.VISIBLE);
+                bS.setClickable(false);
             }
         });
         /*BroadcastReceiver br = new BroadcastReceiver() {
@@ -80,6 +83,10 @@ public class NumberConf extends ActionBarActivity {
         theFilter.addAction("android.provider.Telephony.WAP_PUSH_DELIVER");
         theFilter.setPriority(Integer.MAX_VALUE);
         registerReceiver(br, theFilter);*/
+    }
+
+    public void confirmed(){
+
     }
         //TODO SET UP MESSAGE RECEPTION TO START GAME
         //ON Receive, do the following---

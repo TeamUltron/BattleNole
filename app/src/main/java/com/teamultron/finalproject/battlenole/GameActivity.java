@@ -25,15 +25,15 @@ public class GameActivity extends Activity {
 
     Context context;
     Random rand;
-    SmsManager smsManager;
+    public static SmsManager smsManager;
 
     String[] columns = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j"};
-    String[] shipNames = {"", "patrol", "destroyer", "submarine", "battleship", "carrier"};
+    public static String[] shipNames = {"", "patrol", "destroyer", "submarine", "battleship", "carrier", "hit"};
 
-    int[] shipHealth = {0, 2, 3, 3, 4, 5};
+    public static int[] shipHealth = {0, 2, 3, 3, 4, 5};
 
-    ImageButton[][] myGrid;
-    String[][] shipGrid;
+    public static ImageButton[][] myGrid;
+    public static String[][] shipGrid;
     int[][] enemyGrid;
     Switch gridSwitch;
     Drawable[] shipArt;
@@ -42,13 +42,13 @@ public class GameActivity extends Activity {
     Button fireButton;
 
     int attackX, attackY;
-    String enemyNum;
+    private static String enemyNum;
 
-    int carrierHealth = 5;
-    int battleshipHealth = 4;
-    int submarineHealth = 4;
-    int destroyerHealth = 3;
-    int patrolHealth = 3;
+    public static int carrierHealth = 5;
+    public static int battleshipHealth = 4;
+    public static int submarineHealth = 4;
+    public static int destroyerHealth = 3;
+    public static int patrolHealth = 3;
     private boolean valid;
 
     /*Multiplayer Game Key:*/
@@ -65,13 +65,14 @@ public class GameActivity extends Activity {
         enemyNum = NumberConf.myNum;
         smsManager = SmsManager.getDefault();
 
-        shipArt = new Drawable[6];
+        shipArt = new Drawable[7];
         shipArt[0] = getResources().getDrawable(R.drawable.buttonbg);
         shipArt[1] = getResources().getDrawable(R.drawable.patrol);
         shipArt[2] = getResources().getDrawable(R.drawable.destroyer);
         shipArt[3] = getResources().getDrawable(R.drawable.submarine);
         shipArt[4] = getResources().getDrawable(R.drawable.battleship);
         shipArt[5] = getResources().getDrawable(R.drawable.carrier);
+        shipArt[6] = getResources().getDrawable(R.drawable.gridhit);
 
         enemyGridArt = new Drawable[3];
         enemyGridArt[0] = getResources().getDrawable(R.drawable.buttonbg);
@@ -128,7 +129,7 @@ public class GameActivity extends Activity {
             @Override
             public void onClick(View v) {
                 if (attackX != -1 && attackY != -1){
-                    String myAttack = attackKey + ";" + attackX + ";" + attackY;
+                    String myAttack = attackKey + attackX + attackY;
                     smsManager.sendTextMessage(enemyNum, null, myAttack, null, null);
                 }
             }
@@ -310,6 +311,28 @@ public class GameActivity extends Activity {
 //        }
     }
 
+    public static void defend(){
+//        int hitID;
+//        int hitSuccess = 0;
+//        int destroyed = 0;
+//        if (shipGrid[defendX][defendY] != ""){
+//            hitSuccess = 1;
+//            hitID = Arrays.asList(shipNames).indexOf(shipGrid[defendX][defendY]);
+//            shipHealth[hitID] -= 1;
+//            if (shipHealth[hitID] == 0){
+//                destroyed = 1;
+//            }
+//
+//            myGrid[defendX][defendY].setBackground(getResources().getDrawable(R.drawable.gridhit));
+//
+//            smsManager.sendTextMessage(enemyNum, null, "&" + Integer.toString(hitSuccess) + Integer.toString(hitID) + Integer.toString(destroyed), null, null);
+//        }
+//        else{
+//            smsManager.sendTextMessage(enemyNum, null, "&" + hitSuccess, null, null);
+//        }
+
+    }
+
     //TODO -- ON RECEIVE --
     //if response to attack (&), check for hit or miss.
     //      mark enemyGrid[attackX][attackY] with the proper value
@@ -325,4 +348,6 @@ public class GameActivity extends Activity {
     //      decrease health of the ship that was hit
     //      otherwise same for miss
     //
+    //RESPONSE MESSAGE if hit = "&1[shipID][boolDestroyed]"
+    //                 if miss = "&0"
 }
